@@ -118,6 +118,7 @@ main{
                 & li {
                     padding: 10px;
                     pointer-events: all;
+                    color: var(--border-color);
                     & a{
                         color: var(--border-color);
                     }
@@ -233,4 +234,9 @@ footer{
 
 .btn-group .search-btn:hover{
     outline: var(--border-color);
+}
+
+#clear{
+    display: none;
+
 }
